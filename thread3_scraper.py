@@ -16,8 +16,8 @@ sites = [
     "https://www.facebook.com/",
     "https://docs.python.org/3/library/unittest.html#assert-methods",
     "https://www.mzv.sk/",
-    # "https://www.minv.sk/",
-    # "https://www.minv.sk/?NAKA"
+    #"https://www.minv.sk/",
+    #"https://www.minv.sk/?NAKA"
 
 ]
 threads = []
