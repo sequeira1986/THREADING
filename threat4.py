@@ -2,6 +2,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 
+
 class ShoppingCart:
     def __init__(self):
         self.items = 0
@@ -15,6 +16,7 @@ class ShoppingCart:
             time.sleep(1)  # This sleep simulates some processing time
             self.items = local_cart
             print(f'Zákazník-{name}: nakúpil')
+
 
 print('Nakupovanie začína')
 shopping_cart = ShoppingCart()
